@@ -7,6 +7,7 @@
 * redux-devtools-dock-monitor
 * redux-devtools-log-monitor
 * redux-slider-monitor
+* firebase
 
 ## DevTools
 
