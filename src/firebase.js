@@ -7,6 +7,6 @@ const config = {
     databaseURL: CONFIG.DATABASE_URL,
     storageBucket: CONFIG.STORAGE_BUCKET,
 };
-firebase.initializeApp(config)
 
-export default firebase
+export const firebaseApp = firebase.initializeApp(config);
+export const firebaseDb = firebaseApp.database();
